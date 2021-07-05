@@ -1,0 +1,14 @@
+{
+  "name": "Projet Innovant SALMA",
+  "description": "Cette extension complète un formulaire",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage"],
+  "action": {
+    "default_icon": "128.png",
+    "default_popup": "index.html"
+  }
+}
